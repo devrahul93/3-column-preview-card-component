@@ -78,3 +78,10 @@ button:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
